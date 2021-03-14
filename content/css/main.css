@@ -239,3 +239,9 @@ a {
 .leftAlign {
     text-align: left !important;
 }
+
+
+.glide__slide img {
+    width: 100%;
+    height: calc(100vh);
+}

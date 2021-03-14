@@ -1,25 +1,18 @@
 ﻿$(function () {
     $('console-input').focus();
-
-    $('.flexslider').flexslider({
-        animation: "slide",
-        controlNav: false,
-        animationLoop: true
-        //smoothHeight: true,
-        //allowOneSlide: true
+    var glide = new Glide('.glide', {
+        startAt: 0,
+        perView: 1,
+        autoplay: false,
+        animationDuration: 10000,
+        rewindDuration: 10000,
+        animationTimingFunc: "ease-in",
+        keyboard: true,
+        gap: 0,
+        type: "carousel"
     });
-    //$('#slider').flexslider("play");
+    glide.mount();
+    setTimeout(function () {
+        glide.settings.autoplay = true;
+    }, 5000);
 });
-
-//$(document).ready(function () {
-
-
-
-    //$("[href]").each(function () {
-    //    if (this.href == window.location.href) {
-    //        $(this).parent("li").addClass("current-link");
-    //    }
-    //});
-//});
-
-

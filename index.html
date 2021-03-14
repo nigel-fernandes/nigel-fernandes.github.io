@@ -10,28 +10,45 @@
     <!--CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" crossorigin="anonymous">
     <link href="/content/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="/content/css/glide/glide.core.min.css" rel="stylesheet" type="text/css" />
+    <link href="/content/css/glide/glide.theme.min.css" rel="stylesheet" type="text/css" />
+
     <!--End CSS-->
     <!--JS-->
     <script src="https://use.fontawesome.com/4b64577598.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" type="text/javascript" crossorigin="anonymous"></script>
-    <!--End JS-->
+    <script src="/scripts/glide/glide.min.js"></script>
     <script src="/scripts/main.js" type="text/javascript"></script>
+    <!--End JS-->    
 </head>
 <body>
-    <div class="welcome-box">
+    <!--<div class="welcome-box">-->
         <!--<img class="welcomeImage" src="/Content/Images/welcomeimg.jpg" alt="Welcome Image" />-->
-        <div class="console-window">
+        <!--<div class="console-window">
             <div class="console-output"></div>
             > Welcome to Developers Adventures <br />
             > Hi, I'm Nigel ... Whats your name ? <br />
             <label for="console-input">&gt;&nbsp;</label><input id="console-input" type="text" autocomplete="off" maxlength="50" value="" />
         </div>
-        
+
         <div class="welcome-follow">
             <span>follow me:</span>
             <a href="https://www.linkedin.com/in/nigel-fernandes-pro/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" title="Linkedin"></i></a>
         </div>
+    </div>-->
+    <div class="glide">
+        <div data-glide-el="track" class="glide__track">
+            <ul class="glide__slides">
+                <li class="glide__slide"><img src="/content/images/homecarousel/mountain.jpg"  /></li>
+                <li class="glide__slide"><img src="/content/images/homecarousel/rafting.jpg" /></li>
+                <li class="glide__slide"><img src="/content/images/homecarousel/toinfinityandbeyond.jpg" /></li>
+            </ul>
+        </div>
+        <!--<div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        </div>-->
     </div>
     <br /><br />
     <div class="container me-dv">
@@ -112,7 +129,7 @@
             </div>
             <div class="col-lg-4 insta-pic">
                 <a href="https://www.instagram.com/thedevelopersadventures/" target="_blank">
-                    <img src="~/content/images/adventures/hiking.jpg" />
+                    <img src="/content/images/adventures/hiking.jpg" />
                 </a>
             </div>
             <div class="col-lg-4 insta-pic">
@@ -122,5 +139,9 @@
             </div>
         </div>
     </div>
+    <script>
+
+        
+    </script>
 </body>
 </html>
