@@ -3,16 +3,16 @@
     var glide = new Glide('.glide', {
         startAt: 0,
         perView: 1,
-        autoplay: false,
-        animationDuration: 10000,
-        rewindDuration: 10000,
-        animationTimingFunc: "ease-in",
-        keyboard: true,
+        autoplay: 10000,
+        animationDuration: 3000,
+        //rewindDuration: 10000,
+        animationTimingFunc: "ease",
         gap: 0,
-        type: "carousel"
+        type: "carousel",
+        touchAngle : 0
     });
     glide.mount();
-    setTimeout(function () {
-        glide.settings.autoplay = true;
-    }, 5000);
+    //setTimeout(function () {
+    //    glide.settings.autoplay = true;
+    //}, 5000);
 });
