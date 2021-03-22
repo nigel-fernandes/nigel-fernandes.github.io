@@ -1,0 +1,263 @@
+﻿body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    color: inherit;
+}
+
+.welcome-box {
+    width: 100%;
+    height: calc(100vh);
+    background-image: url('/content/images/homecarousel/waterfallrap.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+    .welcome-box .console-window {
+        background-color: #f4f4f4;
+        opacity: 0.5;
+        width: calc(35vw);
+        position: absolute;
+        left: 28%;
+        top: 37%;
+        padding: 15px;
+        color: black;
+        font-family: Calibri;
+        font-size: large;
+        font-weight: bold;
+    }
+
+        .welcome-box .console-window #console-input {
+            border: none;
+            background-color: transparent;
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: inherit;
+        }
+
+    .welcome-box .welcome-follow {
+        position: absolute;
+        left: 85%;
+        bottom: 5%;
+        font-size: larger;
+    }
+
+        .welcome-box .welcome-follow span {
+            font-family: 'Monotype Corsiva','Arial';
+        }
+
+.more-content {
+}
+
+.section-title-bar {
+    border-bottom: 2px solid black;
+}
+
+.section-title {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgba(27, 27, 27, 0.97);
+}
+
+    .section-title span {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+.me-dv {
+    vertical-align: middle !important;
+    min-height: 50vh;
+}
+
+.me-highlight {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+    .me-highlight .hlcontent {
+        background-color: rgba(27, 98, 176, 0.14) !important;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50%;
+        behavior: url(PIE.htc); /* IE8 */
+    }
+
+    .me-highlight .hltitle {
+        font-family: sans-serif;
+        color: #4a4848;
+        font-size: x-large;
+        padding: 5px;
+    }
+
+        .me-highlight .hltitle .fl {
+            font-weight: bolder;
+        }
+
+    .me-highlight .hltext {
+        font-family: 'Lucida Handwriting','Times New Roman', Times, serif;
+    }
+
+.shortinfo-container {
+    /*background-color:rgba(23, 16, 16, 0.97);*/
+    background: url('/content/images/banner_Copy.png') repeat-x rgba(23, 16, 16, 0.97);
+    background-position: center;
+}
+
+.shortinfo {
+    vertical-align: middle;
+    padding: 50px;
+    font-family: 'Lucida Handwriting','Times New Roman', Times, serif;
+    color: wheat;
+    font-size: large;
+}
+
+.twinbanners {
+    min-height: 70vh;
+    /*background-color:rgba(0, 0, 0, 0.94);*/
+    background-color: rgba(60, 128, 202, 0.86);
+}
+
+.dev-community {
+    background-color: rgba(2, 7, 2, 0.91);
+    color: wheat;
+    padding: 20px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.csharpcorner img {
+    -webkit-box-shadow: 5px 5px 5px 0px black;
+    -moz-box-shadow: 5px 5px 5px 0px black;
+    box-shadow: 5px 5px 5px 0px black;
+}
+
+.insta-block{
+    background-color: rgba(27, 98, 176, 0.14) !important;
+}
+
+.insta-pic-row {
+    height: 72vh;
+}
+
+.insta-pic {
+    height: 40vh;
+}
+
+    .insta-pic img {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        height: 70vh;
+    }
+
+.follow-adv-text {
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.flex-caption {
+    width: 96%;
+    padding: 2%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.flexslider {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    text-align: center !important;
+}
+
+.flex-viewport {
+    background-color: transparent !important;
+    text-align: center !important;
+}
+
+.footer-bar {
+    background-color: rgba(2, 7, 2, 0.91);
+    font-size: larger;
+    font-family: 'Monotype Corsiva','Arial';
+    padding: 20px;
+    color:wheat;
+}
+
+/*Main Menu*/
+.main-menu {
+    position: absolute;
+    top: 3%;
+    left: 68%;
+    background-color: transparent;
+}
+
+    .main-menu ul {
+        list-style-type: none;
+    }
+
+        .main-menu ul li {
+            font-family: 'Comic Sans MS';
+            font-size: medium;
+            margin: 15px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            vertical-align: top;
+            min-width: 50px;
+            text-align: center;
+        }
+
+.current-link {
+    background-color: #1b62b0 !important;
+}
+
+
+.main-menu ul li :hover {
+    background-color: lightgreen !important;
+}
+
+
+
+/*Common*/
+.centered {
+    text-align: center !important;
+}
+
+.rightAlign {
+    text-align: right !important;
+}
+
+.leftAlign {
+    text-align: left !important;
+}
+
+
+.glide__slide img {
+    width: 100%;
+    height: calc(100vh);
+}
+
+
+/*section two*/
+.section-bio-photo {
+
+}
+
+.me-img-bio {
+    height: 30vh;
+    border-radius: 20px;    
+    margin-right: 30px;
+}
+
+.section-bio-text {
+
+}
